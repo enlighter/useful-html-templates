@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<!-- *********************************************************************************************
+
+Create a Drop Down Menu with Search Box in CSS3 and HTML
+
+Links:
+http://designmodo.com/create-drop-down-menu-search-box
+
+********************************************************************************************* -->
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" >
+<head>
+<title>Create a Drop Down Menu with Search Box in CSS3 and HTML</title>
+	<link href="flatnav.css" rel="stylesheet">
+		<meta name="robots" content="noindex,follow" />
+</head>
+<body>
+	<ul class="nav">
+		<li id="settings">
+			<a href="#"><img src="settings.png" /></a>
+		</li>
+		<li>
+			<a href="#">Application</a>
+		</li>
+		<li>
+			<a href="#">Board</a>
+		</li>
+		<li id="search">
+			<form action="" method="get">
+				<input type="text" name="search_text" id="search_text" placeholder="Search"/>
+				<input type="button" name="search_button" id="search_button"></a>
+			</form>
+		</li>
+		<li id="options">
+			<a href="#">Options</a>
+			<ul class="subnav">
+				<li><a href="#">Settings</a></li>
+				<li><a href="#">Application</a></li>
+				<li><a href="#">Board</a></li>
+				<li><a href="#">Options</a></li>
+			</ul>
+		</li>
+	</ul>
+
+	<script src="prefixfree-1.0.7.js" type="text/javascript"></script>
+</body>
+</html>
